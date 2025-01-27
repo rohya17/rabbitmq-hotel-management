@@ -34,6 +34,8 @@ sms-server/mvnw
 sms-server/.mvn
 sms-server/target
 
+twilio_2FA_recovery_code.txt
+
 ### STS ###
 .apt_generated
 .classpath
