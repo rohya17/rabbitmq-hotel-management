@@ -8,20 +8,13 @@ import jakarta.validation.constraints.NotNull;
 
 public class EmailDetails {
 
-	@NotNull(message = "Recipents can not be null.")
-	@NotBlank(message = "Recipents can not be blamk.")
+
 	private String recipents;
 	private String cc;
 	private String bcc;
-	
-	@NotNull(message = "Subject can not be null.")
-	@NotBlank(message = "Subject can not be blamk.")
 	private String subject;
-	
 	private String messageBody;
 	private Resource attachment;
-	
-	@NotNull(message = "Email parameters can not be null.")
 	private HashMap<String, String> params;
 
 	public String getRecipents() {

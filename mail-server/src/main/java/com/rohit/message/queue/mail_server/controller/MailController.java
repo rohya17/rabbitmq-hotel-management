@@ -13,7 +13,6 @@ import com.rohit.message.queue.mail_server.models.EmailDetails;
 import com.rohit.message.queue.mail_server.service.MailService;
 
 import jakarta.mail.MessagingException;
-import jakarta.validation.Valid;
 import jakarta.xml.bind.PropertyException;
 
 @CrossOrigin("*")
@@ -25,7 +24,7 @@ public class MailController {
 	private MailService mailService;
 
 	@PostMapping("/sendEmail")
-	public ResponseEntity<String> sendEmail( @Valid @RequestBody EmailDetails emailDetails) throws MessagingException, PropertyException, IOException{
+	public ResponseEntity<String> sendEmail( @RequestBody EmailDetails emailDetails) throws MessagingException, PropertyException, IOException{
 		return mailService.sendEmail(emailDetails); 
 	}
 }

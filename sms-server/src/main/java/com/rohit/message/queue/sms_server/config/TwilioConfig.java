@@ -31,7 +31,7 @@ public class TwilioConfig {
     @Bean
     OpenAPI defineOpenApi() {
 	   Server server = new Server();
-	   server.setUrl("http://localhost:8080");
+	   server.setUrl("http://localhost:8085");
 	   server.setDescription("Development");
 	
 	   Contact myContact = new Contact();
