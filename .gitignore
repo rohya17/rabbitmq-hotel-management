@@ -2,32 +2,37 @@ hotel-city-view/.gitattributes
 hotel-city-view/mvnw.cmd
 hotel-city-view/mvnw
 hotel-city-view/.mvn
+hotel-city-view/target
 
 hotel-lake-view/.gitattributes
 hotel-lake-view/mvnw.cmd
 hotel-lake-view/mvnw
 hotel-lake-view/.mvn
+hotel-lake-view/target
 
 mail-server/.gitattributes
 mail-server/mvnw.cmd
 mail-server/mvnw
 mail-server/.mvn
+mail-server/target
 
 registration/.gitattributes
 registration/mvnw.cmd
 registration/mvnw
 registration/.mvn
+registration/target
 
 registry/.gitattributes
 registry/mvnw.cmd
 registry/mvnw
 registry/.mvn
+registry/target
 
 sms-server/.gitattributes
 sms-server/mvnw.cmd
 sms-server/mvnw
 sms-server/.mvn
-
+sms-server/target
 
 ### STS ###
 .apt_generated
