@@ -10,12 +10,6 @@ hotel-lake-view/mvnw
 hotel-lake-view/.mvn
 hotel-lake-view/target
 
-mail-server/.gitattributes
-mail-server/mvnw.cmd
-mail-server/mvnw
-mail-server/.mvn
-mail-server/target
-
 registration/.gitattributes
 registration/mvnw.cmd
 registration/mvnw
@@ -28,11 +22,11 @@ registry/mvnw
 registry/.mvn
 registry/target
 
-sms-server/.gitattributes
-sms-server/mvnw.cmd
-sms-server/mvnw
-sms-server/.mvn
-sms-server/target
+classes/.gitattributes
+classes/mvnw.cmd
+classes/mvnw
+classes/.mvn
+classes/target
 
 twilio_2FA_recovery_code.txt
 
